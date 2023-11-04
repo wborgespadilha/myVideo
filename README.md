@@ -1,2 +1,2 @@
 # myVideo
-React app for embed videos
+React app for embed videos :)
