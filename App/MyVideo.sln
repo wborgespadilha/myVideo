@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyVideo.Server", "MyVideo.Server\MyVideo.Server.csproj", "{1244C463-89B7-49BA-AD7F-3D49BBD3B283}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyVideo.Server", "MyVideo.Server\MyVideo.Server.csproj", "{1244C463-89B7-49BA-AD7F-3D49BBD3B283}"
 EndProject
-Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "myvideo.client", "myvideo.client\myvideo.client.esproj", "{7A8964B3-0DA6-4784-B1C9-A1174E4B316B}"
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "MyVideo.Client", "myvideo.client\MyVideo.Client.esproj", "{7A8964B3-0DA6-4784-B1C9-A1174E4B316B}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Database", "Database\Database.sqlproj", "{C976CDDB-4D54-4430-B7D0-946D192D13F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,12 @@ Global
 		{7A8964B3-0DA6-4784-B1C9-A1174E4B316B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A8964B3-0DA6-4784-B1C9-A1174E4B316B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7A8964B3-0DA6-4784-B1C9-A1174E4B316B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{C976CDDB-4D54-4430-B7D0-946D192D13F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C976CDDB-4D54-4430-B7D0-946D192D13F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C976CDDB-4D54-4430-B7D0-946D192D13F5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C976CDDB-4D54-4430-B7D0-946D192D13F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C976CDDB-4D54-4430-B7D0-946D192D13F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C976CDDB-4D54-4430-B7D0-946D192D13F5}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
