@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyVideo.Server", "MyVideo.Server\MyVideo.Server.csproj", "{1244C463-89B7-49BA-AD7F-3D49BBD3B283}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "myvideo.client", "myvideo.client\myvideo.client.esproj", "{7A8964B3-0DA6-4784-B1C9-A1174E4B316B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1244C463-89B7-49BA-AD7F-3D49BBD3B283}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1244C463-89B7-49BA-AD7F-3D49BBD3B283}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1244C463-89B7-49BA-AD7F-3D49BBD3B283}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1244C463-89B7-49BA-AD7F-3D49BBD3B283}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A8964B3-0DA6-4784-B1C9-A1174E4B316B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A8964B3-0DA6-4784-B1C9-A1174E4B316B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A8964B3-0DA6-4784-B1C9-A1174E4B316B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7A8964B3-0DA6-4784-B1C9-A1174E4B316B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A8964B3-0DA6-4784-B1C9-A1174E4B316B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A8964B3-0DA6-4784-B1C9-A1174E4B316B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {493E939B-A015-48A1-9197-FE5AEF19613E}
+	EndGlobalSection
+EndGlobal
