@@ -1,0 +1,12 @@
+﻿CREATE TABLE [Video].[Video]
+(
+	[VideoID] INT NOT NULL PRIMARY KEY, 
+    [EmbedURL] NVARCHAR(255) NULL, 
+    [Title] NVARCHAR(150) NULL, 
+    [Description] NVARCHAR(MAX) NULL, 
+    [CategoryID] INT NULL,
+    [CreatedAt] DATETIME NOT NULL DEFAULT GETDATE(), 
+    [CreatedBy] INT NOT NULL DEFAULT 0, 
+    [ModifiedAt] DATETIME NOT NULL DEFAULT GETDATE(), 
+    [ModifiedBy] INT NOT NULL DEFAULT 0
+)

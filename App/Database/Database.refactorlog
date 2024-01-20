@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="60a270a3-324b-42bf-80d0-c33ffe10a840" ChangeDateTime="01/20/2024 17:32:22">
+    <Property Name="ElementName" Value="[Video].[VIDEO].[ID_VIDEO]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Video].[VIDEO]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="VideoID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3c6017be-e1a6-4310-baa5-42985ce6d249" ChangeDateTime="01/20/2024 18:49:48">
+    <Property Name="ElementName" Value="[Video].[Video].[ModifiedDate]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Video].[Video]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ModifiedAt" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f977df25-006d-49b9-9df7-3281c6e2a2e6" ChangeDateTime="01/20/2024 18:49:52">
+    <Property Name="ElementName" Value="[Video].[Video].[CreatedDate]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Video].[Video]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CreatedAt" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e9a6833e-d239-4cf1-9099-7240d0c93928" ChangeDateTime="01/20/2024 18:50:00">
+    <Property Name="ElementName" Value="[Video].[Category].[CreatedDate]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Video].[Category]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CreatedAt" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="914b9f7e-b65b-405f-8445-c6b103650d75" ChangeDateTime="01/20/2024 18:50:04">
+    <Property Name="ElementName" Value="[Video].[Category].[ModifiedDate]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Video].[Category]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ModifiedAt" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="70a36cbd-faa1-4547-90fe-f623c6e4d7ef" ChangeDateTime="01/20/2024 18:50:14">
+    <Property Name="ElementName" Value="[Auditory].[User].[CreatedDate]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Auditory].[User]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CreatedAt" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="2d7403cd-cc1b-4600-b5b8-e2c974040c87" ChangeDateTime="01/20/2024 18:50:17">
+    <Property Name="ElementName" Value="[Auditory].[User].[ModifiedDate]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Auditory].[User]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ModifiedAt" />
+  </Operation>
+</Operations>

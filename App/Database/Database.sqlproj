@@ -56,5 +56,27 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="Tables" />
+    <Folder Include="Procedures" />
+    <Folder Include="Schemas" />
+    <Folder Include="Foreign Keys" />
+    <Folder Include="Scripts" />
+    <Folder Include="Foreign Keys\Auditory" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Tables\Video.sql" />
+    <Build Include="Schemas\VideoSchema.sql" />
+    <Build Include="Tables\Category.sql" />
+    <Build Include="Foreign Keys\FK_Video_CategoryID_Category.sql" />
+    <Build Include="Schemas\Auditory.sql" />
+    <Build Include="Tables\User.sql" />
+    <Build Include="Foreign Keys\Auditory\Video Auditory FKs.sql" />
+    <Build Include="Foreign Keys\Auditory\Category Auditory FKs.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="Database.refactorlog" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Scripts\Insert Categories.PostDeployment.sql" />
   </ItemGroup>
 </Project>
