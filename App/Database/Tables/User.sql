@@ -1,4 +1,4 @@
-﻿CREATE TABLE [Auditory].[User]
+﻿CREATE TABLE [Audit].[User]
 (
 	[UserID] INT NOT NULL PRIMARY KEY, 
     [Name] NVARCHAR(100) NULL,
